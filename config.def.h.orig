@@ -174,7 +174,6 @@ static uint forcemousemod = ShiftMask;
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
  */
-const unsigned int mousescrollincrement = 1;
 static MouseShortcut mshortcuts[] = {
 	/* button               mask            string */
 	{ XK_ANY_MOD,           Button4, kscrollup,      {.i = 1},		0, /* !alt */ -1 },
@@ -186,8 +185,8 @@ static MouseShortcut mshortcuts[] = {
 
 MouseKey mkeys[] = {
 	/* button               mask            function        argument */
-	{ Button4,              ShiftMask,      kscrollup,      {.i =  mousescrollincrement} },
-	{ Button5,              ShiftMask,      kscrolldown,    {.i =  mousescrollincrement} },
+	{ Button4,              ShiftMask,      kscrollup,      {.i =  1} },
+	{ Button5,              ShiftMask,      kscrolldown,    {.i =  1} },
 };
 
 /* Internal keyboard shortcuts. */
