@@ -7,7 +7,8 @@
  */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=22:antialias=true:autohint=true";
 static char *font2[] = {
-	"Noto Color Emoji:pixelsize=22:antialias=true:autohint=true",
+	"Noto Color Emoji:pixelsize=22:antialias=true:autohint=true",	// Emojis
+	"IPAGothic:pixelsize=22:antialias=true:autohint=true"		// Japanese
 /*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
 /*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
 };
